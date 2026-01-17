@@ -1,7 +1,7 @@
 ## Remove URL for Github Pages
 #url: https://jekyll-theme-nix.michaelnordmeyer.com
 #baseurl: /cagefree
-#url: https://she.football
+##url: https://she.football
 title: SheFootball
 author:
   name: Ren Grace Ryba
