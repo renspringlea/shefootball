@@ -1,0 +1,94 @@
+#Set up environment
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) #Set working directory (sue me)
+rstudioapi::filesPaneNavigate(getwd()) #Set files pane in RStudio to working directory
+library(ggplot2) #For graphing
+theme_set(theme_classic()) #Because I'm fashionable
+library(measurements) #For converting units
+library(stringr) #For manipulating text
+library(usdata) #For United States data
+library(scales) #For converting units
+library(viridis) #To help graphing
+library(gridExtra) #To help graphing
+library(gt) #For generating tables
+library(gridExtra) #To help graphing
+library(ggrepel) #To help graphing
+library(gt) #To generate tables
+library(ggsflabel) #To help graphing
+library(readxl) #For importing .xlsx files
+library(usdata) #For helpful US data and functions
+theme_update(plot.title = element_text(hjust = 0.5),
+plot.subtitle = element_text(hjust = 0.5),
+plot.background=element_rect(colour='white',fill='white'),
+panel.background=element_rect(colour='white',fill='white')) #because I'm fashionable
+#theme_update(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) #optional for more fashion
+
+# Web-specific packages
+library(rvest)
+library(httr)
+library(xml2)
+library(readr) #for reading in large text files
+library(RSelenium) # for web scraping pages that use javascript-rendered content
+library(netstat) # helps web scraping by finding free ports
+library(R.utils) # provides the function to time out loops
+agents <- read.csv("~/Documents/Codebook/agents.csv")[,1]
+
+library(ggflags) # To give us flags for graphing
+library(countrycode) # to switch between country name and country code
+
+df_data <- read.csv("data/acl_blank.csv")
+
+df_data_thismonth <- df_data
+df_data_thismonth$month <- as.character(format(Sys.Date(), "%Y-%m"))
+df_data_thismonth$acl <- -999
+
+for (i in c(1:nrow(df_data_thismonth))){
+  print(paste0(i," of ",nrow(df_data_thismonth)))
+  response_tmp <- GET(df_data_thismonth[i,]$scrape_url)
+  Sys.sleep(1)
+  response_text_tmp <- response_tmp %>%
+    read_html() %>%
+    html_text()
+  acl_tmp <- str_count(response_text_tmp,"acl|ACL|cruciate|Cruciate")
+  if(length(acl_tmp)>0){df_data_thismonth[i,]$acl <- acl_tmp}
+}
+
+df_data_thismonth$acl_per_club <- df_data_thismonth$acl/
+  df_data_thismonth$n_clubs
+
+#df_data_thismonth <- read.csv("data_alltime.csv")
+df_data_thismonth$country_code <- str_to_lower(countryname(df_data_thismonth$country,
+                                              destination="iso2c"))
+df_data_thismonth$gender <- factor(df_data_thismonth$gender,
+                                   levels=c("Women","Men"))
+df_data_thismonth$country <- factor(df_data_thismonth$country,
+                                    levels=c("England","United States","Germany",
+                                             "France","Spain","Italy",
+                                             "Japan","Australia"))
+
+g1 <- ggplot(aes(x=gender,y=acl_per_club,fill=gender),data=df_data_thismonth) +
+  geom_col(position="dodge") +
+  facet_wrap(vars(country),axes="all_x") +
+  geom_flag(aes(x=1.5,y=1.5,country=country_code),size=8) +
+  geom_text(aes(label=league_name),size=1.5,y=0,vjust=-1) +
+  scale_x_discrete(labels=NULL,name=NULL) +
+  scale_y_continuous(breaks=seq(0,max(df_data_thismonth$acl_per_club),0.5),name=NULL) +
+  scale_fill_manual(values=c("Men"="#7EBCE6","Women"="#FECEE9"),name=NULL)  +
+  theme_classic() +
+  theme(axis.line.x = element_blank(),
+        axis.ticks.x = element_blank(),
+        #axis.line.y = element_blank(),
+        #axis.ticks.y = element_blank(),
+        legend.position="bottom",
+        plot.title = element_text(hjust = 0.5),
+        plot.subtitle = element_text(hjust = 0.5),
+        plot.caption = element_text(hjust = 0.5,size=5),
+        strip.background = element_blank(),
+  strip.text.x = element_blank()) +
+  labs(title="Current number of ACL injuries by football league",
+       subtitle = paste0("Average per club, data from ",format(Sys.Date(), "%b %Y")),
+       caption="Analysis by SheFootball (www.she.football)\nusing data from SoccerDonna.de and Transfermarkt.com")
+  
+ggsave("results/graph_acl.png",g1,width=6,height=6)
+
+write.csv(df_data_thismonth,"results/data_alltime.csv",append=T,row.names=F)
+write.csv(df_data_thismonth,"results/data_current.csv",append=F,row.names=F)

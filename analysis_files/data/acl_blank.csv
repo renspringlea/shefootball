@@ -1,0 +1,17 @@
+country,gender,league_name,n_clubs,scrape_url
+England,Women,Women's Super League,12,https://www.soccerdonna.de/en/womens-super-league/verletzt/wettbewerb_ENG1.html
+England,Men,Premier League,20,https://www.transfermarkt.com/premier-league/verletztespieler/wettbewerb/GB1
+Australia,Women,A-League Women,12,https://www.soccerdonna.de/en/a-league-women/verletzt/wettbewerb_WL.html
+Australia,Men,A-League Men,12,https://www.transfermarkt.com/a-league/verletztespieler/wettbewerb/AUS1
+United States,Women,NWSL,14,https://www.soccerdonna.de/en/nwsl/verletzt/wettbewerb_NWSL.html
+United States,Men,Major League Soccer,30,https://www.transfermarkt.com/major-league-soccer/verletztespieler/wettbewerb/MLS1
+Germany,Women,Frauen-Bundesliga,14,https://www.soccerdonna.de/en/bundesliga/verletzt/wettbewerb_BL1.html
+Germany,Men,Bundesliga,18,https://www.transfermarkt.com/bundesliga/verletztespieler/wettbewerb/L1
+France,Women,Première Ligue,12,https://www.soccerdonna.de/en/premire-ligue/verletzt/wettbewerb_DAN1.html
+France,Men,Ligue 1,18,https://www.transfermarkt.com/ligue-1/verletztespieler/wettbewerb/FR1
+Italy,Women,Serie A Femminile,12,https://www.soccerdonna.de/en/serie-a-women/verletzt/wettbewerb_IT1.html
+Italy,Men,Serie A,20,https://www.transfermarkt.com/serie-a/verletztespieler/wettbewerb/IT1
+Spain,Women,Liga F,16,https://www.soccerdonna.de/en/primera-division-femenina/verletzt/wettbewerb_ESP1.html
+Spain,Men,La Liga,20,https://www.transfermarkt.com/laliga/verletztespieler/wettbewerb/ES1
+Japan,Women,WE League,12,https://www.soccerdonna.de/en/we-league/verletzt/wettbewerb_JAPW.html
+Japan,Men,J1 League,20,https://www.transfermarkt.com/j1-league/verletztespieler/wettbewerb/JAP1

@@ -1,0 +1,17 @@
+"country","gender","league_name","n_clubs","scrape_url","month","acl","acl_per_club","country_gender","country_code","months_lost","months_lost_per_player"
+"England","Women","Women's Super League",12,"https://www.soccerdonna.de/en/womens-super-league/verletzt/wettbewerb_ENG1.html","2026-01",16,1.33333333333333,"England_Women","gb",113.544147843943,0.378480492813142
+"England","Men","Premier League",20,"https://www.transfermarkt.com/premier-league/verletztespieler/wettbewerb/GB1","2026-01",9,0.45,"England_Men","gb",63.8685831622177,0.127737166324435
+"Australia","Women","A-League Women",12,"https://www.soccerdonna.de/en/a-league-women/verletzt/wettbewerb_WL.html","2026-01",9,0.75,"Australia_Women","au",63.8685831622177,0.212895277207392
+"Australia","Men","A-League Men",12,"https://www.transfermarkt.com/a-league/verletztespieler/wettbewerb/AUS1","2026-01",4,0.333333333333333,"Australia_Men","au",28.3860369609856,0.0946201232032854
+"United States","Women","NWSL",14,"https://www.soccerdonna.de/en/nwsl/verletzt/wettbewerb_NWSL.html","2026-01",12,0.857142857142857,"United States_Women","us",85.1581108829569,0.24330888823702
+"United States","Men","Major League Soccer",30,"https://www.transfermarkt.com/major-league-soccer/verletztespieler/wettbewerb/MLS1","2026-01",13,0.433333333333333,"United States_Men","us",92.2546201232033,0.123006160164271
+"Germany","Women","Frauen-Bundesliga",14,"https://www.soccerdonna.de/en/bundesliga/verletzt/wettbewerb_BL1.html","2026-01",15,1.07142857142857,"Germany_Women","de",106.447638603696,0.304136110296275
+"Germany","Men","Bundesliga",18,"https://www.transfermarkt.com/bundesliga/verletztespieler/wettbewerb/L1","2026-01",6,0.333333333333333,"Germany_Men","de",42.5790554414784,0.0946201232032854
+"France","Women","Première Ligue",12,"https://www.soccerdonna.de/en/premire-ligue/verletzt/wettbewerb_DAN1.html","2026-01",9,0.75,"France_Women","fr",63.8685831622177,0.212895277207392
+"France","Men","Ligue 1",18,"https://www.transfermarkt.com/ligue-1/verletztespieler/wettbewerb/FR1","2026-01",6,0.333333333333333,"France_Men","fr",42.5790554414784,0.0946201232032854
+"Italy","Women","Serie A Femminile",12,"https://www.soccerdonna.de/en/serie-a-women/verletzt/wettbewerb_IT1.html","2026-01",4,0.333333333333333,"Italy_Women","it",28.3860369609856,0.0946201232032854
+"Italy","Men","Serie A",20,"https://www.transfermarkt.com/serie-a/verletztespieler/wettbewerb/IT1","2026-01",6,0.3,"Italy_Men","it",42.5790554414784,0.0851581108829569
+"Spain","Women","Liga F",16,"https://www.soccerdonna.de/en/primera-division-femenina/verletzt/wettbewerb_ESP1.html","2026-01",8,0.5,"Spain_Women","es",56.7720739219713,0.141930184804928
+"Spain","Men","La Liga",20,"https://www.transfermarkt.com/laliga/verletztespieler/wettbewerb/ES1","2026-01",7,0.35,"Spain_Men","es",49.6755646817248,0.0993511293634497
+"Japan","Women","WE League",12,"https://www.soccerdonna.de/en/we-league/verletzt/wettbewerb_JAPW.html","2026-01",20,1.66666666666667,"Japan_Women","jp",141.930184804928,0.473100616016427
+"Japan","Men","J1 League",20,"https://www.transfermarkt.com/j1-league/verletztespieler/wettbewerb/JAP1","2026-01",11,0.55,"Japan_Men","jp",78.0616016427105,0.156123203285421
