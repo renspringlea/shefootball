@@ -2,7 +2,7 @@
 layout: home
 ---
 
-# Salary
+# Salaryy
 
 ![.jpg](/assets/images/.jpg){: width='400' }  
 
