@@ -2,11 +2,17 @@
 layout: home
 ---
 
-On this webpage, I share some data visualizations on the socio-economic dimensions.
+On this webpage, I share some data visualizations on the socio-economic dimensions of women's football (soccer).
 
 # Salary
 
-Note that this data is from 2017 and might be a little bit out of date — naturally, high-quality data on people's salaries is sensitive and hard to obtain. On the other hand, a 2024 survey by FIFA reported that a mean salary of 24,030 USD for women players in "Tier 1" leagues, which is comparable to the values used in this graph. That same FIFA survey found that salaries for players in lower-tier leagues drop off very quickly to 4,361 USD (Tier 2) and 2,805 (Tier 3) — in US dollars per year!
+There is an excellent quote from [Sporting Intelligence](https://globalsportssalaries.com/GSSS%202017.pdf#page=11.48), in the context of Australian rules football (AFL and AFLW): "if the men took a 1 per cent pay cut, it would cover a 100 per cent pay rise for the women."
+
+It would take a little bit more than 1 per cent for women's soccer, but not that much more: 1.4% in England, 4.6% in Germany, and 8.9% in France. The United States is slightly more reasonable at 20%, perhaps because the United States has historically been a strong country for women's sport (and women's soccer) while being a weak country for soccer overall. But even the comparatively reasonable United States represents an 80% pay gap.
+
+I'm reminded of the fact that Fiona Worts, star striker for Adelaide United in Australia's A-League Women, worked at McDonald's in 2022 to supplement her pay ([ABC](https://www.abc.net.au/news/2022-02-15/fiona-worts-feel-good-story-part-time-a-league-women/100830636)). Several A-League Women players left the sport simply because it didn't make economic sense.
+
+Note that this data is from 2017 and might be a little bit out of date — naturally, high-quality data on people's salaries is sensitive and hard to obtain. On the other hand, [a 2024 survey by FIFA](https://inside.fifa.com/womens-football/fifa-benchmarking-report) reported that a mean salary of 24,030 USD for women players in "Tier 1" leagues, which is comparable to the values used in this graph. That same FIFA survey found that salaries for players in lower-tier leagues drop off very quickly to 4,361 USD (Tier 2) and 2,805 (Tier 3) — in US dollars per year!
 
 ![Graph of salary of professional football players by gender](analysis_files/results/graph_salary.png)
 <div class="tablenotes"><a href="analysis_files/data/salary.csv">Download the data</a><br />
@@ -36,7 +42,7 @@ Analysis by SheFootball using data from <a href="https://soccerdonna.de/">Soccer
 
 In several countries, there are major legal barriers preventing women from participating in football. Afghanistan has banned women from playing sport since the Taliban takeover in 2021, and football players were targeted for violence — many of Afghanistan's international players were evacuated and settled in Australia ([Wikipedia](https://en.wikipedia.org/wiki/Afghanistan_women%27s_national_football_team#2021_Taliban_takeover_and_disbandment)). Likewise, women's football is banned in Brunei.
 
-Recent news that Qatar was in talks with FIFA to host the first Women's Club World Cup ([The Guardian](https://www.theguardian.com/football/2026/jan/12/qatar-talks-fifa-host-first-womens-club-world-cup-january-2028)) were widely criticized because Qatar is not exactly a paragon of women's football, women's rights, or LGBT+ rights. Qatar's national women's football team has been inactive for over a decade, and being gay is punishable by death ([Independent])(https://www.independent.co.uk/news/world/gay-lesbian-bisexual-relationships-illegal-in-74-countries-a7033666.html).
+Recent news that Qatar was in talks with FIFA to host the first Women's Club World Cup ([The Guardian](https://www.theguardian.com/football/2026/jan/12/qatar-talks-fifa-host-first-womens-club-world-cup-january-2028)) were widely criticized because Qatar is not exactly a paragon of women's football, women's rights, or LGBT+ rights. Qatar's national women's football team has been inactive for over a decade, and being gay is punishable by death ([Independent](https://www.independent.co.uk/news/world/gay-lesbian-bisexual-relationships-illegal-in-74-countries-a7033666.html)).
 
 It is also worth noting that many European countries banned women from playing football during the 20th century. Notably, the FA's 1921 ban on women playing football in England was only lifted in 1971 ([Wikipedia](https://en.wikipedia.org/wiki/Bans_of_women%27s_association_football)).
 
