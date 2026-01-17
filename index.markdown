@@ -2,9 +2,15 @@
 layout: home
 ---
 
+On this webpage, I share some data visualizations on the socio-economic dimensions.
+
 # Salary
 
-![.jpg](/assets/images/.jpg){: width='400' }  
+Note that this data is from 2017 and might be a little bit out of date — naturally, high-quality data on people's salaries is sensitive and hard to obtain. On the other hand, a 2024 survey by FIFA reported that a mean salary of 24,030 USD for women players in "Tier 1" leagues, which is comparable to the values used in this graph. That same FIFA survey found that salaries for players in lower-tier leagues drop off very quickly to 4,361 USD (Tier 2) and 2,805 (Tier 3) — in US dollars per year!
+
+![Graph of salary of professional football players by gender](analysis_files/results/graph_salary.png)
+<div class="tablenotes"><a href="analysis_files/data/salary.csv">Download the data</a><br />
+Analysis by SheFootball using data from Sporting Intelligence available <a href="https://globalsportssalaries.com/GSSS%202017.pdf">here</a></div>
 
 # Attendance
 
@@ -17,7 +23,7 @@ Analysis by SheFootball using data from Wikipedia and <a href="https://footballw
 
 # ACL injuries
 
-Anterior cruciate ligament (ACL) injuries are a type of serious knee injury that affect women around 2.5 times as frequently as men ([Bloch et al 2025](https://esskajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ksa.70160)). Long recovery times means that players are often out for a year or longer ([Abed et al 2023](https://journals.sagepub.com/doi/pdf/10.1177/23259671231164944)), and Sam Kerr's ACL injury kept her out of the game for 20 months ([Wikipedia](https://en.wikipedia.org/wiki/Sam_Kerr)).
+Anterior cruciate ligament (ACL) injuries are a type of serious knee injury that affect women footballers around 2.5 times as frequently as men ([Bloch et al 2025](https://esskajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ksa.70160)). Long recovery times means that players are often out for a year or longer ([Abed et al 2023](https://journals.sagepub.com/doi/pdf/10.1177/23259671231164944)), and Sam Kerr's ACL injury kept her out of the game for 20 months ([Wikipedia](https://en.wikipedia.org/wiki/Sam_Kerr)).
 
 The causes of the higher rate of ACL injuries in women are currently the topic of active debate, and it is likely that our understanding will evolve over the next few years as major sporting bodies conduct studies ([BBC](https://www.bbc.co.uk/sport/football/articles/cxwv38dp748o)). Some key academic sources on this topic are summarized in my blog article [here](https://ryba.ren/2025/01/16/acl-injuries.html).
 
