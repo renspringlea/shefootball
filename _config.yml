@@ -7,8 +7,6 @@ author:
   name: Ren Grace Ryba
 description: "Visual data on women's football around the world"
 
-theme: jekyll-theme-minimal
-
 plugins:
   - jekyll-include-cache
   # - jekyll-redirect-from
