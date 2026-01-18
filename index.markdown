@@ -44,7 +44,7 @@ In several countries, there are major legal barriers preventing women from parti
 
 Recent news that Qatar was in talks with FIFA to host the first Women's Club World Cup ([The Guardian](https://www.theguardian.com/football/2026/jan/12/qatar-talks-fifa-host-first-womens-club-world-cup-january-2028)) were widely criticized because Qatar is not exactly a paragon of women's football, women's rights, or LGBT+ rights. Qatar's national women's football team has been inactive for over a decade, and being gay is punishable by death ([Independent](https://www.independent.co.uk/news/world/gay-lesbian-bisexual-relationships-illegal-in-74-countries-a7033666.html)).
 
-It is also worth noting that many European countries banned women from playing football during the 20th century. Notably, the FA's 1921 ban on women playing football in England was only lifted in 1971 ([Wikipedia](https://en.wikipedia.org/wiki/Bans_of_women%27s_association_football)).
+It is also worth noting that many European countries banned women from playing football during the 20th century. Notably, the FA's 1921 ban on women playing football in England was only lifted in 1971 ([Wikipedia](https://en.wikipedia.org/wiki/Bans_of_women%27s_association_football)), and even today the FA bans trans women from playing. This mean that I can play football in neither England nor Afghanistan — strange bedfellows indeed.
 
 ![Map showing countries where women either are banned from playing football or have no active national team](analysis_files/results/countries_map.png)
 
