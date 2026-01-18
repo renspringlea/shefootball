@@ -52,7 +52,7 @@ header > time { color: darkgrey; }
 
 
 html {
-  max-width: 43rem;
+  max-width: 60rem;
   margin: 0 auto;
   padding: 1em;
   font: 1rem / 1.5 sans-serif;
