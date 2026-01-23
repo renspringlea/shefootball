@@ -4,18 +4,6 @@ layout: home
 
 On this webpage, I share some data visualizations on the socio-economic dimensions of women's football (soccer).
 
-# Football — the amateur sport
-
-Most of the news coverage and published statistics — including this website — focuses on professional football. But in terms of participation numbers, football is overwhelmingly dominated by amateur football.
-
-- England — **99.989% amateurs**
-- United States — **99.997% amateurs**
-- Australia — **99.984% amateurs**. The most common age group of participants is age 25 to 34 (27.5 %), and there are almost as many players aged over 45 (12.5 %) as there are players aged 15 to 17 (14.6 %) ([ASC](https://app.powerbi.com/view?r=eyJrIjoiMzg2NTFmZGEtNGRhZC00Yzg2LWFjMjktNTViZTc2NDYwN2RiIiwidCI6IjhkMmUwZjRjLTU1ZjItNGNiMS04ZWU3LWRhNWRkM2ZmMzYwMCJ9)).
-
-<div class="tablenotes">Calculations: England has approximately 3 million amateurs in women's football (<a href="https://www.thefa.com/womens-girls-football/get-involved/play-football">FA</a>), compared to 345 players in the Women's Super League (<a href="https://www.soccerdonna.de/en/womens-super-league/startseite/wettbewerb_ENG1.html">SoccerDonna</a>). The United States has approximately 14.1 million amateurs in women's football (<a href="https://www.forsoccer.com/insight/soccer-participation-in-the-united-states/">For Soccer</a>), compared to a maximum of 416 players in the National Women's Soccer League. Australia has 1,233,355 amateurs in women's football (<a href="https://app.powerbi.com/view?r=eyJrIjoiMzg2NTFmZGEtNGRhZC00Yzg2LWFjMjktNTViZTc2NDYwN2RiIiwidCI6IjhkMmUwZjRjLTU1ZjItNGNiMS04ZWU3LWRhNWRkM2ZmMzYwMCJ9">ASC</a>), compared to a maximum of 192 players in the A-League Women.</div>
-
-Policies aiming to exclude transgender players in England and the United States is usually grounded in discussions of the professional game rather than the amateur game. The diversity in age groups also raises the question of whether the "unfair advantage" discourse has any merit in a sport where teenagers play alongside players aged 50+ (my own team has both!).
-
 # Salary
 
 There is an excellent quote from [Sporting Intelligence](https://globalsportssalaries.com/GSSS%202017.pdf#page=11.48), in the context of Australian rules football (AFL and AFLW): "if the men took a 1 per cent pay cut, it would cover a 100 per cent pay rise for the women."
@@ -62,3 +50,35 @@ It is also worth noting that many European countries banned women from playing f
 
 <div class="tablenotes"><a href="analysis_files/data/countries.csv">Download the data</a><br />
 Analysis by SheFootball using data from Wikipedia, FIFA, and MSN</div>
+
+# Football — the amateur sport
+
+Most of the news coverage and published statistics — including this website — focuses on professional football. But in terms of participation numbers, football is overwhelmingly dominated by amateur football.
+
+- England — **99.989% amateurs**
+- United States — **99.997% amateurs**
+- Australia — **99.984% amateurs**
+
+This means that professional players make up between 0.003 and 0.01 percent of players, depending on country. This is similar to your chance of dying of a bee sting (0.002%), being struck by lightning during your lifetime (0.007%), or getting a perfect score on the SAT (0.03%). Can you imagine if only people who have been struck by lightning could vote, or if the health department focused almost entirely on bee stings?
+
+The following image illustrates this for Australia. Every grey pixel in the image represents an amateur player of women's football in Australia. The tiny blue line at the bottom represents the vanishingly small number of professionals.
+
+![Image comparing amateur vs professional numbers in Australia](analysis_files/results/g_amateur.png)
+
+Australia also publishes data on the age of amateur players. The most common age group is age 25 to 34 with over a quarter of players, which surprised me. There are almost as many players aged 45 and over (12.5 %) as there are players aged 15 to 17 (14.6 %).
+
+![Age structure of amateur players in Australia](analysis_files/results/g_age.png)
+
+Policies aiming to exclude transgender players in England and the United States is usually grounded in discussions of the professional game rather than the amateur game. The diversity in age groups also raises the question of whether the "unfair advantage" discourse has any merit in a sport where teenagers play alongside players aged 50+ (my own team has both!).
+
+<div class="tablenotes">Calculations: England has approximately 3 million amateurs in women's football (<a href="https://www.thefa.com/womens-girls-football/get-involved/play-football">FA</a>), compared to 345 players in the Women's Super League (<a href="https://www.soccerdonna.de/en/womens-super-league/startseite/wettbewerb_ENG1.html">SoccerDonna</a>). The United States has approximately 14.1 million amateurs in women's football (<a href="https://www.forsoccer.com/insight/soccer-participation-in-the-united-states/">For Soccer</a>), compared to a maximum of 416 players in the National Women's Soccer League. Australia has 1,233,355 amateurs in women's football (<a href="https://app.powerbi.com/view?r=eyJrIjoiMzg2NTFmZGEtNGRhZC00Yzg2LWFjMjktNTViZTc2NDYwN2RiIiwidCI6IjhkMmUwZjRjLTU1ZjItNGNiMS04ZWU3LWRhNWRkM2ZmMzYwMCJ9">ASC</a>), compared to a maximum of 192 players in the A-League Women.</div>
+
+# Blog
+
+If you enjoyed these data visualizations, you might enjoy these blog articles:  
+
+- [https://ryba.ren/2025/05/24/corner-flag.html](The economics of taking the ball to the corner flag) — equations on time wasting
+- [https://ryba.ren/2025/05/03/soccer-arbitrary-meaning.html](What are we doing when we play (and watch) sport?) — the philosophy of football
+- [https://ryba.ren/2025/04/05/offside-amnesia.html](Soccer, the offside rule, and generational amnesia) — why moving the offside line forward won't solve any problems
+- [https://ryba.ren/2025/04/04/athletes-mental.html](Athletes and mental health challenges)
+- [https://ryba.ren/2025/03/29/unique-soccer.html](Unique soccer matches from history)
