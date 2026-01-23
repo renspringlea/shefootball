@@ -6,17 +6,15 @@ On this webpage, I share some data visualizations on the socio-economic dimensio
 
 # Football — the amateur sport
 
-Most of the news coverage and published statistics — including this website — focus on professional football. But in terms of participation numbers, football is overwhelmingly dominated by amateur football.
+Most of the news coverage and published statistics — including this website — focuses on professional football. But in terms of participation numbers, football is overwhelmingly dominated by amateur football.
 
 - England — **99.989% amateurs**
 - United States — **99.997% amateurs**
-- Australia — **99.984% amateurs**
+- Australia — **99.984% amateurs**. The most common age group of participants is age 25 to 34 (27.5 %), and there are almost as many players aged over 45 (12.5 %) as there are players aged 15 to 17 (14.6 %) ([ASC](https://app.powerbi.com/view?r=eyJrIjoiMzg2NTFmZGEtNGRhZC00Yzg2LWFjMjktNTViZTc2NDYwN2RiIiwidCI6IjhkMmUwZjRjLTU1ZjItNGNiMS04ZWU3LWRhNWRkM2ZmMzYwMCJ9)).
 
 <div class="tablenotes">Calculations: England has approximately 3 million amateurs in women's football (<a href="https://www.thefa.com/womens-girls-football/get-involved/play-football">FA</a>), compared to 345 players in the Women's Super League (<a href="https://www.soccerdonna.de/en/womens-super-league/startseite/wettbewerb_ENG1.html">SoccerDonna</a>). The United States has approximately 14.1 million amateurs in women's football (<a href="https://www.forsoccer.com/insight/soccer-participation-in-the-united-states/">For Soccer</a>), compared to a maximum of 416 players in the National Women's Soccer League. Australia has 1,233,355 amateurs in women's football (<a href="https://app.powerbi.com/view?r=eyJrIjoiMzg2NTFmZGEtNGRhZC00Yzg2LWFjMjktNTViZTc2NDYwN2RiIiwidCI6IjhkMmUwZjRjLTU1ZjItNGNiMS04ZWU3LWRhNWRkM2ZmMzYwMCJ9">ASC</a>), compared to a maximum of 192 players in the A-League Women.</div>
 
-Australia also publishes data about the age of amateur women's football participants. The most common age group of participants is age 25 to 34 (27.5 percent of players), and there are almost as many players aged over 45 (12.5 %) as there are players aged 15 to 17 (14.6 %) ([ASC](https://app.powerbi.com/view?r=eyJrIjoiMzg2NTFmZGEtNGRhZC00Yzg2LWFjMjktNTViZTc2NDYwN2RiIiwidCI6IjhkMmUwZjRjLTU1ZjItNGNiMS04ZWU3LWRhNWRkM2ZmMzYwMCJ9)). I think this broad participation across age groups is pretty cool, and something for Australia to be proud of.
-
-The current action against transgender players in England and the United States is usually grounded in discussions of the professional game rather than the amateur game. The diversity in age groups also raises the question of whether the "unfair advantage" discourse, used to attack trans women in particular, has any merit in a sport where teenagers are playing alongside players aged 50+ (my own team has both!).
+Policies aiming to exclude transgender players in England and the United States is usually grounded in discussions of the professional game rather than the amateur game. The diversity in age groups also raises the question of whether the "unfair advantage" discourse has any merit in a sport where teenagers play alongside players aged 50+ (my own team has both!).
 
 # Salary
 
