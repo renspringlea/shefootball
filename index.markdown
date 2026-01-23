@@ -67,7 +67,7 @@ The following image illustrates this for Australia. Every grey pixel in the imag
 
 Australia also publishes data on the age of amateur players. The most common age group is age 25 to 34 with over a quarter of players, which surprised me. There are almost as many players aged 45 and over (12.5 %) as there are players aged 15 to 17 (14.6 %).
 
-![Age structure of amateur players in Australia](analysis_files/results/g_age.png)
+![Age structure of amateur players in Australia](analysis_files/results/graph_age.png)
 
 Policies aiming to exclude transgender players in England and the United States is usually grounded in discussions of the professional game rather than the amateur game. The diversity in age groups also raises the question of whether the "unfair advantage" discourse has any merit in a sport where teenagers play alongside players aged 50+ (my own team has both!).
 
