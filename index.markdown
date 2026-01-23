@@ -77,8 +77,8 @@ Policies aiming to exclude transgender players in England and the United States 
 
 If you enjoyed these data visualizations, you might enjoy these blog articles:  
 
-- [https://ryba.ren/2025/05/24/corner-flag.html](The economics of taking the ball to the corner flag) — equations on time wasting
-- [https://ryba.ren/2025/05/03/soccer-arbitrary-meaning.html](What are we doing when we play (and watch) sport?) — the philosophy of football
-- [https://ryba.ren/2025/04/05/offside-amnesia.html](Soccer, the offside rule, and generational amnesia) — why moving the offside line forward won't solve any problems
-- [https://ryba.ren/2025/04/04/athletes-mental.html](Athletes and mental health challenges)
-- [https://ryba.ren/2025/03/29/unique-soccer.html](Unique soccer matches from history)
+- [The economics of taking the ball to the corner flag](https://ryba.ren/2025/05/24/corner-flag.html) — equations on time wasting
+- [What are we doing when we play (and watch) sport?](https://ryba.ren/2025/05/03/soccer-arbitrary-meaning.html) — the philosophy of football
+- [Soccer, the offside rule, and generational amnesia](https://ryba.ren/2025/04/05/offside-amnesia.html) — why moving the offside line forward won't solve any problems
+- [Athletes and mental health challenges](https://ryba.ren/2025/04/04/athletes-mental.html)
+- [Unique soccer matches from history](https://ryba.ren/2025/03/29/unique-soccer.html)
