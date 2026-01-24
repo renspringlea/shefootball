@@ -22,8 +22,7 @@ Analysis by SheFootball using data from Sporting Intelligence available <a href=
 
 There has been a steady increase in the number of fans attending top-flight women's club football matches in England, the United States, and Germany. Australia is lagging, while Japan has a long history of high attendance compared to other countries. All countries took a temporary hit around 2020 due to the pandemic.  
 
-![Graph of attendance at women's football over time](analysis_files/results/graph_attendance.png)
-
+<a target="_blank" href="analysis_files/results/graph_attendance.png"><img alt="Graph of attendance at women's football over time" src="analysis_files/results/graph_attendance.png" /></a>
 <div class="tablenotes"><a href="analysis_files/data/attendance.csv">Download the data</a><br />
 Analysis by SheFootball using data from Wikipedia and <a href="https://footballwebpages.co.uk">footballwebpages.co.uk</a></div>
 
@@ -33,7 +32,7 @@ Anterior cruciate ligament (ACL) injuries are a type of serious knee injury that
 
 The causes of the higher rate of ACL injuries in women are currently the topic of active debate, and it is likely that our understanding will evolve over the next few years as major sporting bodies conduct studies ([BBC](https://www.bbc.co.uk/sport/football/articles/cxwv38dp748o)). Some key academic sources on this topic are summarized in my blog article [here](https://ryba.ren/2025/01/16/acl-injuries.html).
 
-![Graph of current ACL injuries in various football leagues, by gender](analysis_files/results/graph_acl.png)
+<a target="_blank" href="analysis_files/results/graph_acl.png"><img alt="Graph of current ACL injuries in various football leagues, by gender" src="analysis_files/results/graph_acl.png" /></a>
 
 <div class="tablenotes"><a href="analysis_files/results/data_alltime.csv">Download the data</a><br />
 Analysis by SheFootball using data from <a href="https://soccerdonna.de/">SoccerDonna.de</a> and <a href="Transfermarkt.com">Transfermarkt.com</a></div>
@@ -46,7 +45,7 @@ Recent news that Qatar was in talks with FIFA to host the first Women's Club Wor
 
 It is also worth noting that many European countries banned women from playing football during the 20th century. Notably, the FA's 1921 ban on women playing football in England was only lifted in 1971 ([Wikipedia](https://en.wikipedia.org/wiki/Bans_of_women%27s_association_football)), and even today the FA bans trans women from playing. This mean that I can play football in neither England nor Afghanistan — strange bedfellows indeed.
 
-![Map showing countries where women either are banned from playing football or have no active national team](analysis_files/results/countries_map.png)
+<a target="_blank" href="analysis_files/results/countries_map.png"><img alt="Map showing countries where women either are banned from playing football or have no active national team" src="analysis_files/results/countries_map.png" /></a>
 
 <div class="tablenotes"><a href="analysis_files/data/countries.csv">Download the data</a><br />
 Analysis by SheFootball using data from Wikipedia, FIFA, and MSN</div>
@@ -63,11 +62,11 @@ This means that professional players make up between 0.003 and 0.01 percent of p
 
 The following image illustrates this for Australia. Every grey pixel in the image represents an amateur player of women's football in Australia. The tiny blue line at the bottom represents the vanishingly small number of professionals.
 
-![Image comparing amateur vs professional numbers in Australia](analysis_files/results/g_amateur.png)
+<a target="_blank" href="analysis_files/results/g_amateur.png"><img alt="Image comparing amateur vs professional numbers in Australia" src="analysis_files/results/g_amateur.png" /></a>
 
 Australia also publishes data on the age of amateur players. The most common age group is age 25 to 34 with over a quarter of players, which surprised me. There are almost as many players aged 45 and over (12.5 %) as there are players aged 15 to 17 (14.6 %).
 
-![Age structure of amateur players in Australia](analysis_files/results/graph_age.png)
+<a target="_blank" href="analysis_files/results/graph_age.png"><img alt="Age structure of amateur players in Australia" src="analysis_files/results/graph_age.png" /></a>
 
 Policies aiming to exclude transgender players in England and the United States is usually grounded in discussions of the professional game rather than the amateur game. The diversity in age groups also raises the question of whether the "unfair advantage" discourse has any merit in a sport where teenagers play alongside players aged 50+ (my own team has both!).
 
@@ -75,7 +74,7 @@ Policies aiming to exclude transgender players in England and the United States 
 
 # Blog
 
-If you enjoyed these data visualizations, you might enjoy these blog articles:  
+If you enjoyed these data visualizations, you might like to check out these blog articles on my personal site:  
 
 - [The economics of taking the ball to the corner flag](https://ryba.ren/2025/05/24/corner-flag.html) — equations on time wasting
 - [What are we doing when we play (and watch) sport?](https://ryba.ren/2025/05/03/soccer-arbitrary-meaning.html) — the philosophy of football
