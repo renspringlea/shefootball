@@ -72,6 +72,25 @@ Policies aiming to exclude transgender players in England and the United States 
 
 <div class="tablenotes">Calculations: England has approximately 3 million amateurs in women's football (<a href="https://www.thefa.com/womens-girls-football/get-involved/play-football">FA</a>), compared to 345 players in the Women's Super League (<a href="https://www.soccerdonna.de/en/womens-super-league/startseite/wettbewerb_ENG1.html">SoccerDonna</a>). The United States has approximately 14.1 million amateurs in women's football (<a href="https://www.forsoccer.com/insight/soccer-participation-in-the-united-states/">For Soccer</a>), compared to a maximum of 416 players in the National Women's Soccer League. Australia has 1,233,355 amateurs in women's football (<a href="https://app.powerbi.com/view?r=eyJrIjoiMzg2NTFmZGEtNGRhZC00Yzg2LWFjMjktNTViZTc2NDYwN2RiIiwidCI6IjhkMmUwZjRjLTU1ZjItNGNiMS04ZWU3LWRhNWRkM2ZmMzYwMCJ9">ASC</a>), compared to a maximum of 192 players in the A-League Women.</div>
 
+# Goalkeeping
+
+Finally, as a keeper myself, I feel obligated to put a graph in here about goalkeeping.
+
+In the following graph, each point represents a team from the A-League Women (Australia and New Zealand) in the 2024-25 season. The horizontal axis represents the percentage of shots saved by each team's goalkeepers, and the vertical axis the number of goals that the team conceded throughout the season.
+
+As the dotted line shows, there is a strong negative correlation between shots saved and goals conceded. But the correlation isn't *perfect* — there is still a lot of scatter around the trendline.
+
+Generating a simple linear model to examine these two variables, we see that there is an R² of 58 %. This indicates that 58 percent of the variation in goals conceded is explained by shots saved.
+
+In other words, almost half of the variation in goals conceded is explained by other variables — even the best goalkeepers can't control up to 42 % of the variation in goals conceded.
+
+We can also see on the horizontal axis that the save percentage maxes out at around 80 percent, at least for this particular tournament and season. Even the best goalkeeper in the tournament let 20 percent of shots into the goal.
+
+<a target="_blank" href="analysis_files/results/graph_goals.png"><img alt="Graph showing negative correlation between shots saved (percent) and goals against each team in the A-League Women for the 2024-25 season" src="analysis_files/results/graph_goals.png" /></a>
+
+<div class="tablenotes"><a href="analysis_files/data/goals.csv">Download the data</a><br />
+Analysis by SheFootball using data from <a href="https://fbref.com/en/comps/196/2024-2025/2024-2025-A-League-Women-Stats#all_stats_squads_keeper">FBref</a> and <a href="https://en.wikipedia.org/wiki/2024%E2%80%9325_A-League_Women#League_table">Wikipedia</a></div>
+
 # Blog
 
 If you enjoyed these data visualizations, you might like to check out these blog articles on my personal site:  
