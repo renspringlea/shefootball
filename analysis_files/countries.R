@@ -47,22 +47,24 @@ sv_countries$label_y <- geom(centroids(sv_countries))[,4]
 
 sv_countries_red <- sv_countries[which(!is.na(sv_countries$status)),]
 
-palette_map <- c("#240003",
-                 "#78020C",
-                 "#B63843",
-                 "#F69EA5")
+palette_map <- c("#44001A",
+                 "#D81E5B",
+                 "#F0544F",
+                 "#FFE156")
 
 
 g_map <- ggplot(data=sv_countries_red) +
-  geom_spatvector(data=sv_countries,fill="grey80",color=NA) +
+  geom_spatvector(data=sv_countries,fill="grey50",color=NA) +
   geom_spatvector(aes(fill=status),color=NA) +
   geom_label_repel(aes(x=label_x,y=label_y,label=map_label),
-                  size=1.5,
+                  size=2,
                   segment.size=0.2,
-                  label.padding=0.1,
+                  label.padding=0.2,
                   max.overlaps=NA,
                   min.segment.length=0.1,
-                  force_pull=0.5) +
+                  force_pull=0.3,
+                  fill="#252a34",
+                  color="#eaeaea") +
   scale_fill_manual(values=palette_map,
                     name=NULL,
                     breaks=unique(df_countries$status),
@@ -79,6 +81,8 @@ g_map <- ggplot(data=sv_countries_red) +
         legend.direction = "vertical",
         plot.title = element_text(hjust = 0.5),
         plot.caption = element_text(hjust = 0.5,size=5),
-        plot.background=element_rect(colour='white',fill='white'),
-        panel.background=element_rect(colour='white',fill='white'))
+        text = element_text(color="#eaeaea"),
+        plot.background=element_rect(colour='#252a34',fill='#252a34'),
+        panel.background=element_rect(colour='#252a34',fill='#252a34'),
+        legend.background = element_rect(colour='#252a34',fill='#252a34'))
 ggsave("results/countries_map.png",g_map,width=6,height=4)

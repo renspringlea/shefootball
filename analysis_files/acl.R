@@ -68,22 +68,26 @@ df_data_thismonth$country <- factor(df_data_thismonth$country,
 g1 <- ggplot(aes(x=gender,y=acl_per_club,fill=gender),data=df_data_thismonth) +
   geom_col(position="dodge") +
   facet_wrap(vars(country),axes="all_x") +
-  geom_flag(aes(x=1.5,y=1.5,country=country_code),size=8) +
-  geom_text(aes(label=league_name),size=1.5,y=0,vjust=-1) +
+  geom_flag(aes(x=1.5,y=1.8,country=country_code),size=8) +
+  geom_text(aes(label=league_name),size=1.8,vjust=-0.5,color="#eaeaea") +
   scale_x_discrete(labels=NULL,name=NULL) +
   scale_y_continuous(breaks=seq(0,max(df_data_thismonth$acl_per_club),0.5),name=NULL) +
   scale_fill_manual(values=c("Men"="#7EBCE6","Women"="#FECEE9"),name=NULL)  +
   theme_classic() +
-  theme(axis.line.x = element_blank(),
+  theme(text = element_text(color="#eaeaea"),
+        axis.line.x = element_blank(),
         axis.ticks.x = element_blank(),
-        #axis.line.y = element_blank(),
-        #axis.ticks.y = element_blank(),
+        axis.line.y = element_line(color="#eaeaea"),
+        axis.ticks.y = element_line(color="#eaeaea"),
         legend.position="bottom",
         plot.title = element_text(hjust = 0.5),
         plot.subtitle = element_text(hjust = 0.5),
         plot.caption = element_text(hjust = 0.5,size=5),
         strip.background = element_blank(),
-  strip.text.x = element_blank()) +
+        strip.text.x = element_blank(),
+        plot.background=element_rect(colour='#252a34',fill='#252a34'),
+        panel.background=element_rect(colour='#252a34',fill='#252a34'),
+        legend.background = element_rect(colour='#252a34',fill='#252a34')) +
   labs(title="Current number of ACL injuries by football league",
        subtitle = paste0("Average per club, data from ",format(Sys.Date(), "%b %Y")),
        caption="Analysis by SheFootball (www.she.football)\nusing data from SoccerDonna.de and Transfermarkt.com")

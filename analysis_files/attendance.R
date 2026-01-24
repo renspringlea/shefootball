@@ -47,18 +47,25 @@ g_attendance <- ggplot(aes(x=year,y=attendance_mean,color=league_country,shape=l
   labs(title="Attendance at women's top-flight club football",
        subtitle="Average number of attendees per match",
        caption="Analysis by SheFootball (www.she.football)\nusing data from Wikipedia & footballwebpages.co.uk") +
-  scale_color_manual(values=c("#3F0D12","#009ddc","#f26430","#6761a8","#009b72"),
+  scale_color_manual(values=c("#D8CFAF","#E6B89C","#ED9390","#F374AE","#759EB8"),
                      name=NULL) +
   scale_shape_discrete(name=NULL) +
-  theme(legend.position=c(0.2,0.24),
+  theme(legend.position=c(0.2,0.2),
         legend.text = element_text(size=6),
-        legend.background = element_rect(fill=NA,color=NA),
         legend.box.background = element_rect(fill=NA,color=NA),
         axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),
         plot.title = element_text(hjust = 0.5),
         plot.subtitle = element_text(hjust = 0.5),
-        plot.caption = element_text(hjust = 0.5,size=5))
-ggsave("results/graph_attendance.png",g_attendance,width=6,height=4)
+        plot.caption = element_text(hjust = 0.5,size=5),
+        text = element_text(color="#eaeaea"),
+        axis.line.x = element_line(color="#eaeaea"),
+        axis.ticks.x = element_line(color="#eaeaea"),
+        axis.line.y = element_line(color="#eaeaea"),
+        axis.ticks.y = element_line(color="#eaeaea"),
+        plot.background=element_rect(colour='#252a34',fill='#252a34'),
+        panel.background=element_rect(colour='#252a34',fill='#252a34'),
+        legend.background = element_rect(colour='#252a34',fill='#252a34'))
+ggsave("results/graph_attendance.png",g_attendance,width=6.5,height=5)
 
 
 df_attendance_clubs$country_code <- countrycode(sourcevar=df_attendance_clubs$country,

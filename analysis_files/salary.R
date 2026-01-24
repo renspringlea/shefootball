@@ -38,22 +38,26 @@ df_data$country <- factor(df_data$country,
 g1 <- ggplot(aes(x=gender,y=salary,fill=gender),data=df_data) +
   geom_col(position="dodge") +
   facet_wrap(vars(country),axes="all_x",scales="free_y") +
-  geom_flag(aes(x=1,y=0.9*salary,country=country_code),size=8,,data=df_data[which(df_data$gender=="Men"),]) +
-  geom_text(aes(label=league_name),size=1.5,y=0,vjust=-1) +
+  geom_flag(aes(x=1,y=salary,country=country_code),size=8,,data=df_data[which(df_data$gender=="Men"),]) +
+  geom_text(aes(label=paste0(league_name,"\n",dollar(salary))),size=2,vjust=-0.5,color="#eaeaea") +
   scale_x_discrete(labels=NULL,name=NULL) +
-  scale_y_continuous(labels=dollar,name=NULL) +
+  scale_y_continuous(labels=dollar,name=NULL,expand = expansion(mult = c(0,0.2))) +
   scale_fill_manual(values=c("Men"="#7EBCE6","Women"="#FECEE9"),name=NULL)  +
   theme_classic() +
-  theme(axis.line.x = element_blank(),
+  theme(text = element_text(color="#eaeaea"),
+        axis.line.x = element_blank(),
         axis.ticks.x = element_blank(),
-        #axis.line.y = element_blank(),
-        #axis.ticks.y = element_blank(),
+        axis.line.y = element_line(color="#eaeaea"),
+        axis.ticks.y = element_line(color="#eaeaea"),
         legend.position="bottom",
         plot.title = element_text(hjust = 0.5),
         plot.subtitle = element_text(hjust = 0.5),
         plot.caption = element_text(hjust = 0.5,size=5),
         strip.background = element_blank(),
-  strip.text.x = element_blank()) +
+        strip.text.x = element_blank(),
+        plot.background=element_rect(colour='#252a34',fill='#252a34'),
+        panel.background=element_rect(colour='#252a34',fill='#252a34'),
+        legend.background = element_rect(colour='#252a34',fill='#252a34')) +
   labs(title="Average salary of pro football players by league",
        subtitle = paste0("Note: vertical axes vary between graphs"),
        caption="Analysis by SheFootball (www.she.football)\nusing data from Sporting Intelligence")

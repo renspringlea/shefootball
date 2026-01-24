@@ -14,7 +14,7 @@ I'm reminded of the fact that Fiona Worts, star striker for Adelaide United in A
 
 Note that this data is from 2017 and might be a little bit out of date — naturally, high-quality data on people's salaries is sensitive and hard to obtain. On the other hand, [a 2024 survey by FIFA](https://inside.fifa.com/womens-football/fifa-benchmarking-report) reported that a mean salary of 24,030 USD for women players in "Tier 1" leagues, which is comparable to the values used in this graph. That same FIFA survey found that salaries for players in lower-tier leagues drop off very quickly to 4,361 USD (Tier 2) and 2,805 (Tier 3) — in US dollars per year!
 
-![Graph of salary of professional football players by gender](analysis_files/results/graph_salary.png)
+<a target="_blank" href="analysis_files/results/graph_salary.png"><img alt="Graph of salary of professional football players by gender" src="analysis_files/results/graph_salary.png" /></a>
 <div class="tablenotes"><a href="analysis_files/data/salary.csv">Download the data</a><br />
 Analysis by SheFootball using data from Sporting Intelligence available <a href="https://globalsportssalaries.com/GSSS%202017.pdf">here</a></div>
 
