@@ -94,5 +94,5 @@ g1 <- ggplot(aes(x=gender,y=acl_per_club,fill=gender),data=df_data_thismonth) +
   
 ggsave("results/graph_acl.png",g1,width=6,height=6)
 
-write.csv(df_data_thismonth,"results/data_alltime.csv",append=T,row.names=F)
-write.csv(df_data_thismonth,"results/data_current.csv",append=F,row.names=F)
+write_csv(df_data_thismonth,"results/data_alltime.csv",append=T)
+write_csv(df_data_thismonth,"results/data_current.csv",append=F)

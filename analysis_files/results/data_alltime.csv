@@ -15,3 +15,19 @@
 "Spain","Men","La Liga",20,"https://www.transfermarkt.com/laliga/verletztespieler/wettbewerb/ES1","2026-01",7,0.35,"es"
 "Japan","Women","WE League",12,"https://www.soccerdonna.de/en/we-league/verletzt/wettbewerb_JAPW.html","2026-01",19,1.58333333333333,"jp"
 "Japan","Men","J1 League",20,"https://www.transfermarkt.com/j1-league/verletztespieler/wettbewerb/JAP1","2026-01",12,0.6,"jp"
+England,Women,Women's Super League,12,https://www.soccerdonna.de/en/womens-super-league/verletzt/wettbewerb_ENG1.html,2026-02,17,1.4166666666666667,gb
+England,Men,Premier League,20,https://www.transfermarkt.com/premier-league/verletztespieler/wettbewerb/GB1,2026-02,9,0.45,gb
+Australia,Women,A-League Women,12,https://www.soccerdonna.de/en/a-league-women/verletzt/wettbewerb_WL.html,2026-02,12,1,au
+Australia,Men,A-League Men,12,https://www.transfermarkt.com/a-league/verletztespieler/wettbewerb/AUS1,2026-02,6,0.5,au
+United States,Women,NWSL,14,https://www.soccerdonna.de/en/nwsl/verletzt/wettbewerb_NWSL.html,2026-02,15,1.0714285714285714,us
+United States,Men,Major League Soccer,30,https://www.transfermarkt.com/major-league-soccer/verletztespieler/wettbewerb/MLS1,2026-02,12,0.4,us
+Germany,Women,Frauen-Bundesliga,14,https://www.soccerdonna.de/en/bundesliga/verletzt/wettbewerb_BL1.html,2026-02,15,1.0714285714285714,de
+Germany,Men,Bundesliga,18,https://www.transfermarkt.com/bundesliga/verletztespieler/wettbewerb/L1,2026-02,6,0.3333333333333333,de
+France,Women,Première Ligue,12,https://www.soccerdonna.de/en/premire-ligue/verletzt/wettbewerb_DAN1.html,2026-02,8,0.6666666666666666,fr
+France,Men,Ligue 1,18,https://www.transfermarkt.com/ligue-1/verletztespieler/wettbewerb/FR1,2026-02,5,0.2777777777777778,fr
+Italy,Women,Serie A Femminile,12,https://www.soccerdonna.de/en/serie-a-women/verletzt/wettbewerb_IT1.html,2026-02,7,0.5833333333333334,it
+Italy,Men,Serie A,20,https://www.transfermarkt.com/serie-a/verletztespieler/wettbewerb/IT1,2026-02,6,0.3,it
+Spain,Women,Liga F,16,https://www.soccerdonna.de/en/primera-division-femenina/verletzt/wettbewerb_ESP1.html,2026-02,7,0.4375,es
+Spain,Men,La Liga,20,https://www.transfermarkt.com/laliga/verletztespieler/wettbewerb/ES1,2026-02,6,0.3,es
+Japan,Women,WE League,12,https://www.soccerdonna.de/en/we-league/verletzt/wettbewerb_JAPW.html,2026-02,18,1.5,jp
+Japan,Men,J1 League,20,https://www.transfermarkt.com/j1-league/verletztespieler/wettbewerb/JAP1,2026-02,12,0.6,jp
