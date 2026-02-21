@@ -1,0 +1,20 @@
+Trandafirescu et al 2024, DOI: 10.26659/pm3.2024.25.3.126
+table 1
+teenage youth academy players
+Variable,Leg,Position,Mean,sd,n
+Acoustic,Left leg,Defender,0.96,0.15,0.4286
+Acoustic,Left leg,Midfielder,0.9,0.14,0.3673
+Acoustic,Left leg,Forward,0.92,0.21,0.1429
+Acoustic,Left leg,Goalkeeper,0.83,0.02,0.0612
+Acoustic,Right leg,Defender,0.96,0.15,0.4286
+Acoustic,Right leg,Midfielder,0.92,0.14,0.3673
+Acoustic,Right leg,Forward,0.92,0.13,0.1429
+Acoustic,Right leg,Goalkeeper,0.84,0.03,0.0612
+Visual,Left leg,Defender,0.47,0.05,0.4286
+Visual,Left leg,Midfielder,0.66,0.86,0.3673
+Visual,Left leg,Forward,0.5,0.09,0.1429
+Visual,Left leg,Goalkeeper,0.41,0.03,0.0612
+Visual,Right leg,Defender,0.48,0.07,0.4286
+Visual,Right leg,Midfielder,0.5,0.07,0.3673
+Visual,Right leg,Forward,0.5,0.05,0.1429
+Visual,Right leg,Goalkeeper,0.5,0.08,0.0612

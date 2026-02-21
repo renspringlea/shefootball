@@ -1,0 +1,12 @@
+Hernandez-Martinez et al 2024, DOI: 10.3390/app14135665
+table 1
+adult amateur players
+Variable,Position,Mean,sd,n
+sprint_30m,Goalkeeper,8.54,1.17,20
+sprint_30m,Defender,8.49,1.18,38
+sprint_30m,Midfielder,7.71,1.30,52
+sprint_30m,Forward,7.82,1.38,50
+ball_speed_dominant,Goalkeeper,53.2,4.13,20
+ball_speed_dominant,Defender,57.9,5.29,38
+ball_speed_dominant,Midfielder,59.5,6.03,52
+ball_speed_dominant,Forward,57.4,5.54,50

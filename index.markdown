@@ -72,24 +72,38 @@ Policies aiming to exclude transgender players in England and the United States 
 
 <div class="tablenotes">Calculations: England has approximately 3 million amateurs in women's football (<a href="https://www.thefa.com/womens-girls-football/get-involved/play-football">FA</a>), compared to 345 players in the Women's Super League (<a href="https://www.soccerdonna.de/en/womens-super-league/startseite/wettbewerb_ENG1.html">SoccerDonna</a>). The United States has approximately 14.1 million amateurs in women's football (<a href="https://www.forsoccer.com/insight/soccer-participation-in-the-united-states/">For Soccer</a>), compared to a maximum of 416 players in the National Women's Soccer League. Australia has 1,233,355 amateurs in women's football (<a href="https://app.powerbi.com/view?r=eyJrIjoiMzg2NTFmZGEtNGRhZC00Yzg2LWFjMjktNTViZTc2NDYwN2RiIiwidCI6IjhkMmUwZjRjLTU1ZjItNGNiMS04ZWU3LWRhNWRkM2ZmMzYwMCJ9">ASC</a>), compared to a maximum of 192 players in the A-League Women.</div>
 
-# Goalkeeping
+We can also examine participation by ethnic and cultural background.
 
-Finally, as a keeper myself, I feel obligated to put a graph in here about goalkeeping.
+In European countries, there is an interesting phenomenon. We often observe that participation in sports is higher for males than females. But when we also include ethnic or migratory background, we see that females who recently immigrated have the lowest participation of all. In other words, there is an intersection between gender and ethnic/migratory background. This phenomenon is particularly relevant for policymakers, as membership in sports clubs is one way for immigrants to become involved in the mainstream society of the host country.
 
-In the following graph, each point represents a team from the A-League Women (Australia and New Zealand) in the 2024-25 season. The horizontal axis represents the percentage of shots saved by each team's goalkeepers, and the vertical axis the number of goals that the team conceded throughout the season.
+The following graphs illustrate this phenomenon for three European countries: Germany, Denmark, and England. Note that the German and Denmark graphs relate to all sports, not just football, due to limitations of the data.  
+- In Germany, we can see that female adolescents with a migratory background have the lowest participation among all adolescents.
+- In Denmark, we can see that female adolescent students from the first generation of immigrants has the lowest participation of all adolescent students. Notably, immigrants of the second generation approach native Danes in their participation rates, indicating assimilation into the host culture.
+- England is different. Here, we observe the opposite trend. Muslim adults have a *higher* rate of participation in football than all adults. Female Muslims participate in football at about half the frequency of all males. The data for England includes non-binary adults, who participate in football at a rate between that for female and male adults, though there is no data for Muslim non-binary adults.
 
-As the dotted line shows, there is a strong negative correlation between shots saved and goals conceded. But the correlation isn't *perfect* — there is still a lot of scatter around the trendline.
+<a target="_blank" href="analysis_files/results/graph_participation.png"><img alt="Four-panel graph showing sports participation 1) by gender and migratory background in Germany, 2) by gender and migratory background in Denmark, 3) by gender and religion in England, and 4) among women in Iran" src="analysis_files/results/graph_participation.png" /></a>
 
-Generating a simple linear model to examine these two variables, we see that there is an R² of 58 %. This indicates that 58 percent of the variation in goals conceded is explained by shots saved.
+<div class="tablenotes">Data from <a href="https://doi.org/10.1186/s12889-021-11284-9">Rittsteiger et al 2021</a>, <a href="https://www.idan.dk/udgivelser/unges-idraetsdeltagelse-og-integration-i-idraetsforeninger-i-aarhus-vest/">Agergaard 2008</a>, <a href="https://activelives.sportengland.org/Result?queryId=161713">SportEngland</a>, <a href="https://iranopendata.org/en/dataset/iod-04875-athletes-organized-sports-gender-in-1400/">Statistical Centre of Iran</a>, and <a href="https://doi.org/10.1177/1012690222108812">Ziaee et al 2022</a></div>
 
-In other words, almost half of the variation in goals conceded is explained by other variables — even the best goalkeepers can't control up to 42 % of the variation in goals conceded.
+I don't know what explains the difference between Germany and Denmark on one hand and England on the other, but it's certainly interesting. Is this specific to England, or something about football in particular? Are there any lessons that can be learned to help immigrants assimilate in other countries?
 
-We can also see on the horizontal axis that the save percentage maxes out at around 80 percent, at least for this particular tournament and season. Even the best goalkeeper in the tournament let 20 percent of shots into the goal.
+Those three graphs examine immigrants and Muslims in countries where they form a minority group. The final graph examines Muslims in a Muslim-majority country.
 
-<a target="_blank" href="analysis_files/results/graph_goals.png"><img alt="Graph showing negative correlation between shots saved (percent) and goals against each team in the A-League Women for the 2024-25 season" src="analysis_files/results/graph_goals.png" /></a>
+The participation of women across all sports in the Islamic Republic of Iran, a Muslim-majority country, has increased substantially. This is likely due to government policies that have actively sought to expand the availability of women-only sporting spaces, allowing women to participate in sport while preserving their religious commitments.
 
-<div class="tablenotes"><a href="analysis_files/data/goals.csv">Download the data</a><br />
-Analysis by SheFootball using data from <a href="https://fbref.com/en/comps/196/2024-2025/2024-2025-A-League-Women-Stats#all_stats_squads_keeper">FBref</a> and <a href="https://en.wikipedia.org/wiki/2024%E2%80%9325_A-League_Women#League_table">Wikipedia</a></div>
+Both of these topics (sport participation among immigrant and religious minority women in Europe, and participation among women in Muslim-majority countries) are explored in-depth in the book [*Muslim Women and Sport* (eds. Tansin Benn, Gertrud Pfister & Haifaa Jawad, 2010)](https://www.routledge.com/Muslim-Women-and-Sport/Benn-Pfister-Jawad/p/book/9780415522373).
+
+# Physical ability and game position
+
+Finally, as a keeper, I feel obligated to put a graph in here about goalkeeping.
+
+The following graph shows the relationship between game position and three physical or physiological abilities: speed at which players can kick the ball, reaction time upon hearing a sound, and the time to sprint 30 metres.
+
+At least among the players sampled in these studies, goalkeepers have a softer kick and a slower sprint time than the outfielders. But goalkeepers do have a faster reaction time!
+
+<a target="_blank" href="analysis_files/results/graph_position.png"><img alt="Graph showing relationship between football position and a) ball speed, b) reaction time, and c) sprint time of players" src="analysis_files/results/graph_position.png" /></a>
+
+<div class="tablenotes">Data from <a href="https://doi.org/10.3390/app14135665">Hernandez-Martinez et al 2024</a> and <a href="https://doi.org/10.26659/pm3.2024.25.3.126">Trandafierscu et al 2024</a></div>
 
 # Blog
 
