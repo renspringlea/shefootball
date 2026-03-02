@@ -20,7 +20,7 @@ Analysis by SheFootball using data from Sporting Intelligence available <a href=
 
 # Attendance
 
-There has been a steady increase in the number of fans attending top-flight women's club football matches in England, the United States, and Germany. Australia is lagging, while Japan has a long history of high attendance compared to other countries. All countries took a temporary hit around 2020 due to the pandemic.  
+There has been a steady increase in the number of fans attending top-flight women's club football matches in England, the United States, and Germany. Australia is lagging, despite having hosted the 2023 World Cup to great success and fanfare. All countries took a temporary hit around 2020 due to the pandemic.  
 
 <a target="_blank" href="analysis_files/results/graph_attendance.png"><img alt="Graph of attendance at women's football over time" src="analysis_files/results/graph_attendance.png" /></a>
 <div class="tablenotes"><a href="analysis_files/data/attendance.csv">Download the data</a><br />

@@ -47,7 +47,7 @@ g_attendance <- ggplot(aes(x=year,y=attendance_mean,color=league_country,shape=l
   labs(title="Attendance at women's top-flight club football",
        subtitle="Average number of attendees per match",
        caption="Analysis by SheFootball (www.she.football)\nusing data from Wikipedia & footballwebpages.co.uk") +
-  scale_color_manual(values=c("#D8CFAF","#E6B89C","#ED9390","#F374AE","#759EB8"),
+  scale_color_manual(values=c("#E6B89C","#ED9390","#F374AE","#759EB8"),
                      name=NULL) +
   scale_shape_discrete(name=NULL) +
   theme(legend.position=c(0.2,0.2),
