@@ -1,5 +1,5 @@
 ---
-title: "SMT"
+title: "Sturt Marion Thunder"
 layout: page
 ---
 
