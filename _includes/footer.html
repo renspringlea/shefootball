@@ -8,7 +8,7 @@
     <h2 class="footer-heading">About {{ site.title | escape }}</h2>
 
       <div class="footer-col footer-col-3">
-        <div style="float:left" width=400">
+        <div style="float:left;max-width:250px;display:inline-block;" width=400">
         {%- assign date_format = site.theme_settings.date_format | default: "%Y-%m-%d" %}
         <p>Last updated: {{ site.time | date: date_format }} · Made with ❤︎ by <a href="https://ryba.ren/">Ren Grace Ryba (she/her)</a></p>
         <p>Support transgender athletes 🏳️‍⚧️ · I live and work on the unceded land of the Kaurna people · All rights reserved</p>
