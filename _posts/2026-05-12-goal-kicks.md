@@ -9,6 +9,8 @@ As a goalkeeper, I take two kinds of kicks:
 
 Here's a scale diagram of my kicks from the Adelaide Uni away game (2026-04-22 Round 4; 5-6 win). Each point shows where a kick lands, and points are coloured to distinguish goal kicks from punts.  
 
+![Scale diagram showing a number of punts and goal kicks against a football pitch](/assets/images/1_goal_kicks.png){: width='600' }    
+
 In terms of distance up the pitch (i.e. how far the ball gets from the goal line):  
 - Goal kicks average 22 metres up the pitch  
 - Punts average 49 metres up the pitch (I actually got 3 assists in that match from my punts)  
@@ -16,8 +18,6 @@ In terms of distance up the pitch (i.e. how far the ball gets from the goal line
 This shows a couple of things:  
 - My goal kicks are much shorter than my punts. Most experienced goalkeepers can achieve the same distance with both types of kicks. The reason why I can't do this is because my technique isn't very good - something I'm working methodically to improve.  
 - We want our back line to be sitting closer to the goal than where those goal kicks are going. The edge of the penalty box is probably a good guide. This is to stop an opposition striker from intercepting one of my crap goal kicks and immediately taking a shot on goal.  
-
-![Scale diagram showing a number of punts and goal kicks against a football pitch](/assets/images/1_goal_kicks.png){: width='600' }    
 
 
 *[← Return to main Sturt Marion Thunder]({{ site.baseurl }}{% link smt.md %})*
