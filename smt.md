@@ -55,4 +55,6 @@ List of analyses:
 
 {%- endif -%}
 
-<br /><br /><br />
+<br /><br />
+*[← Return to SheFootball home]({{ site.baseurl }}{% link index.markdown %})*
+<br />
