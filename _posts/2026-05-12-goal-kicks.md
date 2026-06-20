@@ -18,3 +18,6 @@ This shows a couple of things:
 - We want our back line to be sitting closer to the goal than where those goal kicks are going. The edge of the penalty box is probably a good guide. This is to stop an opposition striker from intercepting one of my crap goal kicks and immediately taking a shot on goal.  
 
 ![Scale diagram showing a number of punts and goal kicks against a football pitch](/assets/images/1_goal_kicks.png){: width='600' }    
+
+
+*[← Return to main Sturt Marion Thunder]({{ site.baseurl }}{% link smt.md %})*
