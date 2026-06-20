@@ -3,9 +3,9 @@ title: "Sturt Marion Thunder"
 layout: page
 ---
 
-test page
-snell
+This page lists my quantitative analyses for my football team, the Sturt Marion Thunder women's team. The intended audience is my team and the coaching staff (but if you've stumbled here, welcome!).
 
+List of analyses:
 {% if site.paginate %}
   {% assign posts = paginator.posts %}
 {% else %}
@@ -18,17 +18,17 @@ snell
     <h2 class="post-list-heading">{{ page.list_title }}</h2>
   {%- endif -%}
   <ul class="post-list">
-    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {%- assign date_format = site.minima.date_format | default: "%-d %b %Y" -%}
     {% assign id = 0 %}
     {%- for post in posts -%}
     {% assign id = id | plus:1 %}
     <li id="{{id}}">
-      <span class="post-meta">{{ post.date | date: date_format }}</span>
       <span>
         <a class="post-link" href="{{ post.url | relative_url }}">
           {{ post.title | escape }}
         </a>
       </span>
+        (<span class="post-meta">{{ post.date | date: date_format }}</span>)
       {%- if site.show_excerpts -%}
         {{ post.excerpt }}
       {%- endif -%}
@@ -55,3 +55,5 @@ snell
   {%- endif %}
 
 {%- endif -%}
+
+<br /><br /><br />
