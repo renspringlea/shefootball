@@ -20,13 +20,13 @@ First, I wanted to see how where opposition players are actually kicking the bal
 
 To make this systematic, I used a notation system that divides the pitch into 16 rectangular zones. To account for the fact that corners are taken from both sides, all corners taken from the left-hand side were recorded as-is, but all corners taken from the right-hand side were inverted. This means that the diagram shows the near post on the *left* of your screen and the far post on the *right* of your screen, which might not necessarily match the actual direction in which the kick was taken. In other words, the corner taker is always standing at the bottom-left of the diagram and kicking across your screen from left to right.  
 
-<a target="_blank" href="assets/images/2_gridonly.png"><img alt="Diagram of 16-grid system used in this analysis" src="assets/images/2_gridonly.png" /></a>  
+<a target="_blank" href="https://she.football/assets/images/2_gridonly.png"><img alt="Diagram of 16-grid system used in this analysis" src="https://she.football/assets/images/2_gridonly.png" /></a>  
 
 For each corner, I recorded which zone in which the ball first touched either the ground or a player. This corresponds to the position on the pitch where the ball is landing or making first contact with either a player (from either team) or the ground — meaning if you stand in that spot, you can challenge for the ball.  
 
 The following diagram shows the same grid of zones from above, but the 16 zones are labelled according to the percent of defensive corners in which the ball first touched either the ground or a player. The zones are also coloured, with darker rectangles corresponding to more balls landing there.  
 
-<a target="_blank" href="assets/images/2_heatmap.png"><img alt="Heatmap of where corner balls are landing" src="assets/images/2_heatmap.png" /></a>  
+<a target="_blank" href="https://she.football/assets/images/2_heatmap.png"><img alt="Heatmap of where corner balls are landing" src="https://she.football/assets/images/2_heatmap.png" /></a>  
 
 The most common zones into which corners landed were:  
 - 12 corners (20.3%) — Zone 1B, inside the goal area on the near half  
@@ -56,7 +56,7 @@ To record outcomes, I watched all 59 corners and assigned them to one of about a
 
 The following column graph shows the 59 corners categorised into those various outcomes:  
 
-<a target="_blank" href="assets/images/2_outcome.png"><img alt="Column graph of corner outcomes" src="assets/images/2_outcome.png" /></a>  
+<a target="_blank" href="https://she.football/assets/images/2_outcome.png"><img alt="Column graph of corner outcomes" src="https://she.football/assets/images/2_outcome.png" /></a>  
 
 The clearest finding from that column graph is that we seem to be successful at defending corners.  
 
@@ -79,7 +79,7 @@ Regarding the front- and back-post players: either the front-post or the back-po
 
 Regarding the player at the edge of the penalty box: we actually haven't been using this player super often, but I think we should be. The ball went into zone 6A (outside the penalty box) 18.6% of the time — in these cases, the player can directly intercept or challenge for that ball. Furthermore, the ball was just inside the penalty box 22.1% of the time — in these cases, the player can help support the defenders who are positioned there by providing a passing option.  
 
-So, this evidence suggests that we should indeed keep our system of:  
+So, this evidence suggests that we should indeed **keep** our system of:  
 - All opponents in or near the box are man-marked  
 - Front post, back post  
 - Player at the edge of the box  

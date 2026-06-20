@@ -9,7 +9,7 @@ As a goalkeeper, I take two kinds of kicks:
 
 Here's a scale diagram of my kicks from the Adelaide Uni away game (2026-04-22 Round 4; 5-6 win). Each point shows where a kick lands, and points are coloured to distinguish goal kicks from punts.  
 
-![Scale diagram showing a number of punts and goal kicks against a football pitch](/assets/images/1_goal_kicks.png){: width='600' }    
+<a target="_blank" href="https://she.football/assets/images/1_goal_kicks.png"><img alt="Scale diagram showing a number of punts and goal kicks against a football pitch" src="https://she.football/assets/images/1_goal_kicks.png" /></a>
 
 In terms of distance up the pitch (i.e. how far the ball gets from the goal line):  
 - Goal kicks average 22 metres up the pitch  
