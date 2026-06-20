@@ -42,11 +42,11 @@ There are some useful conclusions here.
 
 Firstly, there is a pretty narrow range of areas where the corners are landing — around the near post. We might want to simply stack a bunch of players around the near post, since most corners are landing on that side of the pitch.  
 
-Secondly, the most frequent outcome is that the corner lands inside the goal area. Goalkeepers are often advised that they should aim to catch/punch any corner that strays into the goal area. So, I can probably be catching/punching many more balls than I currently am (see below) — if anything, I'm leaving the ball more frequently than I should be.  
+Secondly, the most frequent outcome is that the corner lands inside the goal area. Goalkeepers are often advised that they should aim to catch/punch any corner that strays into the goal area. So, I can probably be catching/punching many more balls than I currently am (see below) — if anything, I'm leaving the ball more frequently than I should be. Catching the ball more frequently would also let me take more long-distance punts for Chroran to run onto!  
 
 Thirdly, corners are frequently non-threatening, at least directly — many corners are either kicked directly out of play (4 corners, 6.8%) or don’t make it into the penalty area (12 corners, 20.3%).  
 
-A caution: this is where the ball first lands. Most corners ended up with some uncontrolled ping pong in the penalty box. So, the zones below that have a “0” are still important to defend, at least once the ball enters play.  
+A caution: this is where the ball first lands. Most corners ended up with some uncontrolled ping pong in the penalty box. So, the zones above that have a “0” are still important to defend, at least once the ball enters play.  
 
 ## 2. Outcomes of corners  
 
