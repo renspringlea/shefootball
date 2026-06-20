@@ -27,7 +27,7 @@ List of analyses:
       <span>
         <a class="post-link" href="{{ post.url | relative_url }}">
           {{ post.title | escape }}</a></span>
-        &nbsp(<span class="post-meta">{{ post.date | date: date_format }}</span>)
+        &nbsp; (<span class="post-meta">{{ post.date | date: date_format }}</span>)
       {%- if site.show_excerpts -%}
         {{ post.excerpt }}
       {%- endif -%}
