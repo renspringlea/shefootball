@@ -1,6 +1,7 @@
 ---
 title: "Sturt Marion Thunder"
 layout: page
+permalink: /smt/
 ---
 
 This page lists my quantitative analyses for my football team, the Sturt Marion Thunder women's team. The intended audience is my team and the coaching staff (but if you've stumbled here, welcome!).
