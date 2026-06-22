@@ -26,10 +26,14 @@ For the windup of the right leg immediately before contact, notice how the high-
 
 <a target="_blank" href="https://she.football/assets/images/4_leg.png"><img alt="Collage showing comparison of high-level players' right-leg windup immeditaely before contact during goal kicks with my own incorrect technique" src="https://she.football/assets/images/4_leg.png" /></a>  
 
+*Non-Grace image credit: [ARS Goalkeeping](https://www.youtube.com/watch?v=oVFy93h0_T4), [MMU Biomechanics](https://www.youtube.com/watch?v=lBMA2wWuqh8)*  
+
 At the moment of contact, note how:  
 - The high-level players strike the ball with the top edge of the laces, while I incorrectly strike with the side of the foot, and  
 - The high-level players hold their arms out and lean back and to the left, while my arms are down and my body posture is much more straight-on  
 
 <a target="_blank" href="https://she.football/assets/images/4_contact.png"><img alt="Collage showing comparison of high-level players' foot position and body position during goal kicks with my own incorrect technique" src="https://she.football/assets/images/4_contact.png" /></a>  
+
+*Non-Grace image credit: [ARS Goalkeeping](https://www.youtube.com/watch?v=oVFy93h0_T4)*  
 
 *[← Return to main Sturt Marion Thunder]({{ site.baseurl }}{% link smt.md %})*  
