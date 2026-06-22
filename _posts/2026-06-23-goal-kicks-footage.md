@@ -24,7 +24,7 @@ The following images show the comparison.
 
 For the windup of the right leg immediately before contact, notice how the high-level players bring the leg as high as it will go — their heel is almost touching their body. In comparison, my leg is bent at an angle of only 90 degress.  
 
-<a target="_blank" href="https://she.football/assets/images/4_leg.png"><img alt="Collage showing comparison of high-level players' right-leg windup immeditaely before contact during goal kicks with my own incorrect technique" src="https://she.football/assets/images/4_legpng" /></a>  
+<a target="_blank" href="https://she.football/assets/images/4_leg.png"><img alt="Collage showing comparison of high-level players' right-leg windup immeditaely before contact during goal kicks with my own incorrect technique" src="https://she.football/assets/images/4_leg.png" /></a>  
 
 At the moment of contact, note how:  
 - The high-level players strike the ball with the top edge of the laces, while I incorrectly strike with the side of the foot, and  
