@@ -1,6 +1,6 @@
 ---  
 layout: post  
-title: "4. Noarlunga"  
+title: "5. Noarlunga"  
 ---  
 
 ## Take-home message  
@@ -36,16 +36,16 @@ Noarlunga has played 9 matches to date.
 
 Graph of goals scored and conceded (average Noarlunga = 4.2, average opponents = 0.89):  
 
-<a target="_blank" href="https://she.football/assets/images/4_g1.png"><img alt="Line graph of goals scored and conceded" src="https://she.football/assets/images/4_g1.png" /></a>    
+<a target="_blank" href="https://she.football/assets/images/5_g1.png"><img alt="Line graph of goals scored and conceded" src="https://she.football/assets/images/5_g1.png" /></a>    
 
 Graph of goal difference (average = 3.33, but it has been pretty low for the past few weeks):  
 
-<a target="_blank" href="https://she.football/assets/images/4_g2.png"><img alt="Line graph of goal difference" src="https://she.football/assets/images/4_g2.png" /></a>    
+<a target="_blank" href="https://she.football/assets/images/5_g2.png"><img alt="Line graph of goal difference" src="https://she.football/assets/images/5_g2.png" /></a>    
 
 Graph of when goals are scored during each game:  
 
-<a target="_blank" href="https://she.football/assets/images/4_g3.png"><img alt="Timeline of goals scored, from 0 to 80 minutes" src="https://she.football/assets/images/4_g3.png" /></a>    
+<a target="_blank" href="https://she.football/assets/images/5_g3.png"><img alt="Timeline of goals scored, from 0 to 80 minutes" src="https://she.football/assets/images/5_g3.png" /></a>    
 
 Graph of players scoring goals (the players #4 and #15 together account for half of all goals scored):  
 
-<a target="_blank" href="https://she.football/assets/images/4_g4.png"><img alt="Column graph of goals scored by Noarlunga shirt number" src="https://she.football/assets/images/4_g4.png" /></a>    
+<a target="_blank" href="https://she.football/assets/images/5_g4.png"><img alt="Column graph of goals scored by Noarlunga shirt number" src="https://she.football/assets/images/5_g4.png" /></a>    
