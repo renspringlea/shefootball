@@ -105,12 +105,6 @@ At least among the players sampled in these studies, goalkeepers have a softer k
 
 <div class="tablenotes">Data from <a href="https://doi.org/10.3390/app14135665">Hernandez-Martinez et al 2024</a> and <a href="https://doi.org/10.26659/pm3.2024.25.3.126">Trandafierscu et al 2024</a></div>
 
-# Blog
+---
 
-If you enjoyed these data visualizations, you might like to check out these blog articles on my personal site:  
-
-- [The economics of taking the ball to the corner flag](https://ryba.ren/2025/05/24/corner-flag.html) — equations on time wasting
-- [What are we doing when we play (and watch) sport?](https://ryba.ren/2025/05/03/soccer-arbitrary-meaning.html) — the philosophy of football
-- [Soccer, the offside rule, and generational amnesia](https://ryba.ren/2025/04/05/offside-amnesia.html) — why moving the offside line forward won't solve any problems
-- [Athletes and mental health challenges](https://ryba.ren/2025/04/04/athletes-mental.html)
-- [Unique soccer matches from history](https://ryba.ren/2025/03/29/unique-soccer.html)
+If you enjoyed these data visualizations, you might like to check out this blog articles on my personal site: [The economics of taking the ball to the corner flag](https://ryba.ren/2025/05/24/corner-flag.html) — equations on time wasting
