@@ -1,6 +1,6 @@
 #Set up environment
-setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) #Set working directory (sue me)
-rstudioapi::filesPaneNavigate(getwd()) #Set files pane in RStudio to working directory
+#setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) #Set working directory (sue me)
+#rstudioapi::filesPaneNavigate(getwd()) #Set files pane in RStudio to working directory
 library(ggplot2) #For graphing
 theme_set(theme_classic()) #Because I'm fashionable
 library(measurements) #For converting units
@@ -35,7 +35,7 @@ agents <- read.csv("~/Documents/Codebook/agents.csv")[,1]
 library(ggflags) # To give us flags for graphing
 library(countrycode) # to switch between country name and country code
 
-df_data <- read.csv("data/acl_blank.csv")
+df_data <- read.csv("~/Documents/Websites/shefootball/analysis_files/data/acl_blank.csv")
 
 df_data_thismonth <- df_data
 df_data_thismonth$month <- as.character(format(Sys.Date(), "%Y-%m"))
@@ -92,7 +92,7 @@ g1 <- ggplot(aes(x=gender,y=acl_per_club,fill=gender),data=df_data_thismonth) +
        subtitle = paste0("Average per club, data from ",format(Sys.Date(), "%b %Y")),
        caption="Analysis by SheFootball (www.she.football)\nusing data from SoccerDonna.de and Transfermarkt.com")
   
-ggsave("results/graph_acl.png",g1,width=6,height=6)
+ggsave("~/Documents/Websites/shefootball/analysis_files/results/graph_acl.png",g1,width=6,height=6)
 
-write_csv(df_data_thismonth,"results/data_alltime.csv",append=T)
-write_csv(df_data_thismonth,"results/data_current.csv",append=F)
+write_csv(df_data_thismonth,"~/Documents/Websites/shefootball/analysis_files/results/data_alltime.csv",append=T)
+write_csv(df_data_thismonth,"~/Documents/Websites/shefootball/analysis_files/results/data_current.csv",append=F)
