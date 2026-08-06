@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+notify-send -u critical "Beginning shefootball"
 cd ~/Documents/Websites/shefootball
 #bundle lock --add-platform x86_64-linux
 #bundle exec jekyll build --verbose
@@ -9,3 +10,4 @@ Rscript analysis_files/acl.R
 git add .
 git commit -m "Update"
 git push
+notify-send -u critical "Finished shefootball"
